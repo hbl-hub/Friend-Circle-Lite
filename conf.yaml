@@ -8,7 +8,7 @@
 #     marge_json_path:  请填写网络地址的json文件，用于合并，不带空格！！！
 spider_settings:
   enable: true
-  json_url: "https://luckboyhbl.fun/friend.json"
+  json_url: "https://www.luckboyhbl.fun/friend.json"
   article_count: 5
   merge_result:
     enable: false
@@ -38,7 +38,7 @@ rss_subscribe:
   enable: true
   github_username: hbl-hub 
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://luckboyhbl.fun
+  your_blog_url: https://www.luckboyhbl.fun
   email_template: "./rss_subscribe/email_template.html"
   website_info:
     title: "苏林&缘"
