@@ -28,31 +28,31 @@ email_push:
 
 # 邮箱issue订阅功能配置
 # 解释：向在issue中提取的所有邮箱推送您网站中的更新，添加邮箱和删除邮箱均通过添加issue对应格式实现
-#   enable:             是否启用邮箱推送功能
-#   github_username:    GitHub 用户名，用于构建issue api地址
-#   github_repo:        GitHub 仓库名，用于构建issue api地址
-#   your_blog_url:      你的博客地址
+   #  enable: true           
+   # github_username: hbl-hub   
+   #  github_repo: Friend-Circle-Lite     
+   # your_blog_url: https://luckboyhbl.fun    
 #   website_info:       你的博客信息
-#     title:            你的博客标题，如果启用了推送，用于生成邮件主题
+     # title: 苏林&缘           
 rss_subscribe:
   enable: true
-  github_username: willow-god
+  github_username: hbl-hub 
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: https://luckboyhbl.fun
   email_template: "./rss_subscribe/email_template.html"
   website_info:
-    title: "清羽飞扬"
+    title: "苏林&缘"
 
 # SMTP 配置
 # 解释：使用其中的相关配置实现上面两种功能，若无推送要求可以不配置，请将以上两个配置置为false
-#   email:              发件人邮箱地址
-#   server：            SMTP 服务器地址
-#   port：              SMTP 端口号
+   # email: 1420256290@qq.com             
+   # server： smtps.qq.com         
+   # port： 465            
 #   use_tls：           是否使用 tls 加密
 smtp:
-  email: 3162475700@qq.com
+  email: 1420256290@qq.com
   server: smtp.qq.com
-  port: 587
+  port: 465
   use_tls: true
 
 # 特殊RSS地址指定，可以置空但是不要删除！
